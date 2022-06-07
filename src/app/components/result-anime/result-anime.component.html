@@ -1,0 +1,12 @@
+<div class="results">
+    <mat-card *ngFor="let item of misAnimes " class="example-card">
+        <mat-card-title-group>
+          <mat-card-title>{{item.title}}</mat-card-title>
+          <mat-card-subtitle>Small</mat-card-subtitle>
+          <img mat-card-sm-image src={{item.images.jpg.image_url}} >
+        </mat-card-title-group>
+        <mat-card-content>
+        Prueba
+        </mat-card-content>
+      </mat-card>
+</div>

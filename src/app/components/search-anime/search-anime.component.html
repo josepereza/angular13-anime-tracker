@@ -1,0 +1,17 @@
+<mat-grid-list cols="1" rowHeight="200px">
+    <mat-grid-tile>
+        
+            <mat-form-field appearance="legacy">
+            <mat-label>Legacy form field</mat-label>
+            <input matInput placeholder="Placeholder" #myInput type="text"  [formControl]="searchTermino">
+          
+            <mat-hint>Hint</mat-hint>
+          </mat-form-field>
+                    <button type="submit" mat-raised-button color="primary" (click)="setFocus()" (click)="buscar()">Primary</button>
+
+       
+        
+
+    </mat-grid-tile>
+    
+  </mat-grid-list>
